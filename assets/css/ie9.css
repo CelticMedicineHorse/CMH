@@ -1,41 +1,12 @@
 /*
-	Identity by Pixelarity
+	Eventually by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 */
 
-/* Basic */
+/* Signup Form */
 
-	body {
-		background-image: url("../../images/bg.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: bottom center;
-		background-attachment: fixed;
-	}
-
-		body:after {
-			display: none;
-		}
-
-/* List */
-
-	ul.icons li a:before {
-		color: #c8cccf;
-	}
-
-	ul.icons li a:hover:before {
-		color: #ff7496;
-	}
-
-/* Wrapper */
-
-	#wrapper {
-		text-align: center;
-	}
-
-/* Main */
-
-	#main {
+	#signup-form > * {
 		display: inline-block;
+		vertical-align: top;
 	}

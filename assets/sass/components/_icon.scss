@@ -3,7 +3,7 @@
 @import '../libs/mixins';
 
 ///
-/// Identity by Pixelarity
+/// Eventually by Pixelarity
 /// pixelarity.com @pixelarity
 /// License: pixelarity.com/license
 ///
@@ -12,8 +12,8 @@
 
 	.icon {
 		@include icon;
-		position: relative;
 		border-bottom: none;
+		position: relative;
 
 		> .label {
 			display: none;

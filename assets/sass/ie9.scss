@@ -4,53 +4,16 @@
 @import 'libs/skel';
 
 /*
-	Identity by Pixelarity
+	Eventually by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 */
 
-/* Basic */
+/* Signup Form */
 
-	body {
-		background-image:		url('../../images/bg.jpg');
-		background-repeat:		no-repeat;
-		background-size:		cover;
-		background-position:	bottom center;
-		background-attachment:	fixed;
-
-		&:after {
-			display: none;
+	#signup-form {
+		> * {
+			display: inline-block;
+			vertical-align: top;
 		}
-	}
-
-/* List */
-
-	ul {
-		&.icons {
-			li {
-				a {
-					&:before {
-						color: _palette(border);
-					}
-
-					&:hover {
-						&:before {
-							color: _palette(highlight);
-						}
-					}
-				}
-			}
-		}
-	}
-
-/* Wrapper */
-
-	#wrapper {
-		text-align: center;
-	}
-
-/* Main */
-
-	#main {
-		display: inline-block;
 	}

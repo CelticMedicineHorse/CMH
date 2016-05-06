@@ -1,36 +1,27 @@
 /*
-	Identity by Pixelarity
+	Eventually by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 */
 
-/* List */
+/* BG */
 
-	ul.icons li a {
-		-ms-behavior: url("assets/js/PIE.htc");
+	#bg {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
 	}
 
-		ul.icons li a:before {
-			text-align: center;
-			font-size: 26px;
-		}
+/* Type */
 
-/* Main */
-
-	#main {
-		-ms-behavior: url("assets/js/PIE.htc");
-	}
-
-		#main .avatar img {
-			-ms-behavior: url("assets/js/PIE.htc");
-		}
-
-/* Footer */
-
-	#footer {
+	body, input, select, textarea {
 		color: #fff;
 	}
 
-		#footer .copyright li {
-			border-left: solid 1px #fff;
-		}
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		border: solid 2px #fff;
+	}
